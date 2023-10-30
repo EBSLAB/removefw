@@ -2,12 +2,13 @@
 
 - Installed the following python module:
     ```
+    >>> python3 -m venv venv
+    >>> source venv/bin/activate
     >>> pip install polyglot-tokenizer==2.0.2
     ```
 
 ## Run the below command: to run script:
 ```
->>> source venv/bin/activate
 >>> python removefw.py --input in.txt --phrase_list swl_hin_uniq5325.txt --output output.txt --lang hi --split_sen True
 ```
 
